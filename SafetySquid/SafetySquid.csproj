@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resource\menu.png" />
+    <None Remove="Resource\_img\credit-card.png" />
+    <None Remove="Resource\_img\delivery.png" />
+    <None Remove="Resource\_img\squid.png" />
+    <None Remove="Resource\_img\suitcase.png" />
+    <None Remove="Resource\_img\tickets.png" />
+    <None Remove="Resource\_img\user.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.17">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.17" />
+    <PackageReference Include="ModernWpfUI" Version="0.9.5" />
+    <PackageReference Include="ModernWpfUI.MahApps" Version="0.9.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resource\_img\credit-card.png" />
+    <Resource Include="Resource\_img\delivery.png" />
+    <Resource Include="Resource\_img\menu.png" />
+    <Resource Include="Resource\_img\squid.png" />
+    <Resource Include="Resource\_img\suitcase.png" />
+    <Resource Include="Resource\_img\tickets.png" />
+    <Resource Include="Resource\_img\user.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="_data\" />
+  </ItemGroup>
+
+</Project>
