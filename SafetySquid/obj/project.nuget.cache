@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "95R+XfP2ctKDCUHfJYWTrHqo3GufE90pflZnNVvNqGiZ/eXisfcUI7HWaqOH050nqZvZ/a1ee/E27s95SHSpzQ==",
+  "dgSpecHash": "E46s+Pb2NTSK+yX8LJJ+AjF3iS3bmhKszJPhWpL7ShWNbxb9x8412NFGWpW619f/gXmQ+RAYNwWpRAEPQh+KYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fende\\source\\repos\\SafetySquid\\SafetySquid\\SafetySquid.csproj",
+  "projectFilePath": "C:\\Users\\fende\\source\\repos\\safety-squid\\SafetySquid\\SafetySquid.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fende\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\fende\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",

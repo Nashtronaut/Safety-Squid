@@ -128,7 +128,7 @@ namespace SafetySquid {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/SafetySquid;V1.0.0.0;component/jobswindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/SafetySquid;component/jobswindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\JobsWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

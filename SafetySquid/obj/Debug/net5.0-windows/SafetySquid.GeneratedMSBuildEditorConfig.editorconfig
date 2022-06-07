@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = SafetySquid
-build_property.ProjectDir = C:\Users\fende\source\repos\SafetySquid\SafetySquid\
+build_property.ProjectDir = C:\Users\fende\source\repos\safety-squid\SafetySquid\
